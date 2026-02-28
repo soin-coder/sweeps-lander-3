@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sweepstakes Casino Comparison 2026 | Affiliate Landing</title>
+  <meta name="description" content="Mobile-first sweepstakes casino comparison page with bonuses, redemption speed, support quality, trust signals, and affiliate CTA blocks." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="kicker">Affiliate Comparison • Updated Weekly</p>
+      <h1>Sweepstakes Casino Comparison<br><span>Best New + Top Overall Picks</span></h1>
+      <p class="lede">Built from patterns we analyzed across leading comparison pages: rich bonus data, trust notes, and quick-scan rankings. Designed mobile-first, then scaled for desktop.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#rankings">See Rankings</a>
+        <a class="btn ghost" href="#methodology">How We Score</a>
+      </div>
+      <p class="disclaimer">18+ only. Terms apply. Availability varies by state. We may earn commission from partner links.</p>
+    </div>
+  </header>
+
+  <section class="container metrics" id="metrics"></section>
+
+  <main class="container">
+    <section class="filter-bar">
+      <label>
+        Min Trust
+        <select id="trustFilter">
+          <option value="0">All</option>
+          <option value="8">8.0+</option>
+          <option value="8.5">8.5+</option>
+          <option value="9">9.0+</option>
+        </select>
+      </label>
+      <label>
+        Max Redemption Minimum
+        <select id="redeemFilter">
+          <option value="999">Any</option>
+          <option value="50">$50</option>
+          <option value="100">$100</option>
+        </select>
+      </label>
+      <label>
+        Sort by
+        <select id="sortFilter">
+          <option value="score">Overall Score</option>
+          <option value="payout">Payout Speed</option>
+          <option value="games">Game Count</option>
+        </select>
+      </label>
+    </section>
+
+    <section id="rankings">
+      <h2>Ranked Comparison</h2>
+      <div class="cards" id="brandCards"></div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Brand</th>
+              <th>Welcome + Ongoing</th>
+              <th>Redeem Min</th>
+              <th>Payout Window</th>
+              <th>Games</th>
+              <th>Support</th>
+              <th>Trust</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody id="tableRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="insights">
+      <h2>What Actually Matters (Beyond Bonus Hype)</h2>
+      <div class="insight-grid">
+        <article>
+          <h3>1) Redemption Friction</h3>
+          <p>Fast payout marketing is easy. We prioritize whether players consistently redeem without excessive document loops.</p>
+        </article>
+        <article>
+          <h3>2) Terms Clarity</h3>
+          <p>We down-rank sites with vague SC conversion rules, changing bonus language, or hidden playthrough caveats.</p>
+        </article>
+        <article>
+          <h3>3) Daily Value</h3>
+          <p>Strong recurring rewards can outperform flashy one-time welcome packs over 30 days.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="methodology" class="methodology">
+      <h2>Methodology</h2>
+      <ul>
+        <li><strong>Redemption experience (30%)</strong>: speed, consistency, support quality during withdrawal.</li>
+        <li><strong>Bonus economics (20%)</strong>: realistic value from welcome + recurring offers.</li>
+        <li><strong>Game ecosystem (20%)</strong>: variety, provider mix, and game freshness cadence.</li>
+        <li><strong>Platform quality (15%)</strong>: mobile UX, reliability, and responsiveness.</li>
+        <li><strong>Trust signals (15%)</strong>: company transparency, policy clarity, and complaint patterns.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Sweeps Compare Lab</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
